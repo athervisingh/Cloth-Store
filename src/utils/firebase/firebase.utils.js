@@ -36,7 +36,7 @@ const firebaseConfig = {
   measurementId: "G-6M4LCD31B2",
 };
 
-const firebaseApp = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
 
